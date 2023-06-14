@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Flipper</title>
     <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+
 </head>
 <body>
     <div class="container">
     <h1>Background Color: <span id="color">#FFFFFF</span></h1>
     <button type="button" id="randomcolorBtn" onclick="randomColor()">CLICK ME</button>
     </div>
+
+    <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          xplanxplanet Project
+        </p>
+        <a href="https://github.com/xplanxplanet" target="_blank">
+            <i class="fab fa-github" style="color: black;"></i></a>
+      </footer>  
 
  <script src="app.js"></script>   
 </body>
